@@ -1,0 +1,7 @@
+<?php
+
+public function duplicateArray($arr1, &$arr2) {
+  foreach ($arr1 as $key => $value) {
+    $arr2[$key] = $value;
+  }
+}
